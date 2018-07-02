@@ -1,0 +1,425 @@
+[
+	{
+		"SiteName": "Detroit",
+		"SiteID": "sfld01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 24,
+		"EnvironmentFile": "rio-detroit.json",
+		"SiteSpecific": "site_specific/rio-detroit.json",
+		"SiteSpecificBaseFileName": "detroit.json"
+	},
+	{
+		"SiteName": "TwinCities",
+		"SiteID": "eden01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 18,
+		"EnvironmentFile": "rio-tc.json",
+		"SiteSpecific": "site_specific/rio-tc.json",
+		"SiteSpecificBaseFileName": "tc.json"
+	},
+	{
+		"SiteName": "Albuquerque",
+		"SiteID": "albq01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 11,
+		"EnvironmentFile": "rio-albq.json",
+		"SiteSpecific": "site_specific/rio-albq.json",
+		"SiteSpecificBaseFileName": "albq.json"
+	},
+	{
+		"SiteName": "Keystone",
+		"SiteID": "corl01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 23,
+		"EnvironmentFile": "rio-keystone.json",
+		"SiteSpecific": "site_specific/rio-keystone.json",
+		"SiteSpecificBaseFileName": "keystone.json"
+	},
+	{
+		"SiteName": "Houston",
+		"SiteID": "katy01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 10,
+		"EnvironmentFile": "rio-houston.json",
+		"SiteSpecific": "site_specific/rio-houston.json",
+		"SiteSpecificBaseFileName": "houston.json"
+	},
+	{
+		"SiteName": "SaltLakeCity",
+		"SiteID": "stlk0201",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 11,
+		"EnvironmentFile": "rio-saltlakecity.json",
+		"SiteSpecific": "site_specific/rio-saltlakecity.json",
+		"SiteSpecificBaseFileName": "saltlakecity.json"
+	},
+	{
+		"SiteName": "CentralCali",
+		"SiteID": "rnch01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 16,
+		"EnvironmentFile": "rio-ccal.json",
+		"SiteSpecific": "site_specific/rio-ccal.json",
+		"SiteSpecificBaseFileName": "ccal.json"
+	},
+	{
+		"SiteName": "Denver",
+		"SiteID": "dnvr01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 11,
+		"EnvironmentFile": "rio-denver.json",
+		"SiteSpecific": "site_specific/rio-denver.json",
+		"SiteSpecificBaseFileName": "denver.json"
+	},
+	{
+		"SiteName": "Jacksonville",
+		"SiteID": "jack01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 15,
+		"EnvironmentFile": "rio-jacksonville.json",
+		"SiteSpecific": "site_specific/rio-jacksonville.json",
+		"SiteSpecificBaseFileName": "jacksonville.json"
+	},
+	{
+		"SiteName": "Naples",
+		"SiteID": "nape01",
+		"Type": "pre-prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 10,
+		"EnvironmentFile": "rio-naples.json",
+		"SiteSpecific": "site_specific/rio-naples.json",
+		"SiteSpecificBaseFileName": "naples.json"
+	},
+	{
+		"SiteName": "Portland",
+		"SiteID": "port01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 11,
+		"EnvironmentFile": "rio-portland.json",
+		"SiteSpecific": "site_specific/rio-portland.json",
+		"SiteSpecificBaseFileName": "portland.json"
+	},
+	{
+		"SiteName": "Tallahassee",
+		"SiteID": "tall01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 11,
+		"EnvironmentFile": "rio-tallahassee.json",
+		"SiteSpecific": "site_specific/rio-tallahassee.json",
+		"SiteSpecificBaseFileName": "tallahassee.json"
+	},
+	{
+		"SiteName": "Nashville",
+		"SiteID": "nash01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 22,
+		"EnvironmentFile": "rio-nashville.json",
+		"SiteSpecific": "site_specific/rio-nashville.json",
+		"SiteSpecificBaseFileName": "nashville.json"
+	},
+	{
+		"SiteName": "Memphis",
+		"SiteID": "mphs01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 18,
+		"EnvironmentFile": "rio-memphis.json",
+		"SiteSpecific": "site_specific/rio-memphis.json",
+		"SiteSpecificBaseFileName": "memphis.json"
+	},
+	{
+		"SiteName": "Miami",
+		"SiteID": "mimi01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 15,
+		"EnvironmentFile": "rio-miami.json",
+		"SiteSpecific": "site_specific/rio-miami.json",
+		"SiteSpecificBaseFileName": "miami.json"
+	},
+	{
+		"SiteName": "Chicago",
+		"SiteID": "chi01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 31,
+		"EnvironmentFile": "rio-chicago.json",
+		"SiteSpecific": "site_specific/rio-chicago.json",
+		"SiteSpecificBaseFileName": "chicago.json"
+	},
+	{
+		"SiteName": "Freedom",
+		"SiteID": "ncs01",
+		"Type": "prod",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 24,
+		"EnvironmentFile": "rio-freedom.json",
+		"SiteSpecific": "site_specific/rio-freedom.json",
+		"SiteSpecificBaseFileName": "freedom.json"
+	},
+	{
+		"SiteName": "Newkirk",
+		"SiteID": "mtnk01",
+		"Type": "prod",
+		"Customer": "Rogers",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 31,
+		"EnvironmentFile": "rio-newkirk.json",
+		"SiteSpecific": "site_specific/rio-newkirk.json",
+		"SiteSpecificBaseFileName": "newkirk.json"
+	},
+	{
+		"SiteName": "Wolfedale",
+		"SiteID": "wlfd01",
+		"Type": "prod",
+		"Customer": "Rogers",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 24,
+		"EnvironmentFile": "rio-wolfedale.json",
+		"SiteSpecific": "site_specific/rio-wolfedale.json",
+		"SiteSpecificBaseFileName": "wolfedale.json"
+	},
+	{
+		"SiteName": "Atlanta",
+		"SiteID": "atl01",
+		"Type": "prod",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 19,
+		"EnvironmentFile": "rio-atlanta.json",
+		"SiteSpecific": "site_specific/rio-atlanta.json",
+		"SiteSpecificBaseFileName": "atlanta.json"
+	},
+	{
+		"SiteName": "DevNext",
+		"SiteID": "dev-next",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 2,
+		"EnvironmentFile": "rio-dev-next.json",
+		"SiteSpecific": "site_specific/rio-dev-next.json",
+		"SiteSpecificBaseFileName": "dev-next.json"
+	},
+	{
+		"SiteName": "QaNext",
+		"SiteID": "qa-next",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 2,
+		"EnvironmentFile": "rio-qa-next.json",
+		"SiteSpecific": "site_specific/rio-qa-next.json",
+		"SiteSpecificBaseFileName": "qa-next.json"
+	},
+	{
+		"SiteName": "DevQaMaster",
+		"SiteID": "dev-qa-master",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 2,
+		"EnvironmentFile": "rio-dev-qa-master.json",
+		"SiteSpecific": "site_specific/rio-dev-qa-master.json",
+		"SiteSpecificBaseFileName": "dev-qa-master.json"
+	},
+	{
+		"SiteName": "QaPerf",
+		"SiteID": "qa-perf",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 7,
+		"EnvironmentFile": "rio-qa-perf.json",
+		"SiteSpecific": "site_specific/rio-qa-perf.json",
+		"SiteSpecificBaseFileName": "qa-perf.json"
+	},
+	{
+		"SiteName": "QaLong",
+		"SiteID": "qa-longevity",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 2,
+		"EnvironmentFile": "rio-qa-long.json",
+		"SiteSpecific": "site_specific/rio-qa-long.json",
+		"SiteSpecificBaseFileName": "qa-long.json"
+	},
+	{
+		"SiteName": "BluCD",
+		"SiteID": "blu-cd",
+		"Type": "lab",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/labs.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 2,
+		"EnvironmentFile": "rio-blu-cd.json",
+		"SiteSpecific": "site_specific/rio-blu-cd.json",
+		"SiteSpecificBaseFileName": "blu-cd.json"
+	},
+	{
+		"SiteName": "SanFrancisco",
+		"SiteID": "sjos01",
+		"Type": "prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 20,
+		"EnvironmentFile": "rio-sfba.json",
+		"SiteSpecific": "site_specific/rio-sfba.json",
+		"SiteSpecificBaseFileName": "sfba.json"
+	},
+	{
+		"SiteName": "GBR",
+		"SiteID": "fox01",
+		"Type": "pre-prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 26,
+		"EnvironmentFile": "rio-gbr.json",
+		"SiteSpecific": "site_specific/rio-gbr.json",
+		"SiteSpecificBaseFileName": "gbr.json"
+	},
+	{
+		"SiteName": "Seattle",
+		"SiteID": "seat01",
+		"Type": "pre-prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"Steps": 14,
+		"EnvironmentFile": "rio-seattle.json",
+		"SiteSpecific": "site_specific/rio-seattle.json",
+		"SiteSpecificBaseFileName": "seattle.json"
+	},
+	{
+		"SiteName": "Richmond",
+		"SiteID": "stpm01",
+		"Type": "pre-prod",
+		"Customer": "Comcast",
+		"Layers": [
+			"common/base.json",
+			"common/zookeeper.json"
+		],
+		"EnvironmentFile": "rio-richmond.json",
+		"SiteSpecific": "site_specific/rio-richmond.json",
+		"SiteSpecificBaseFileName": "richmond.json"
+	}
+]
