@@ -4,14 +4,14 @@
   },
   "spec": {
     "Environment": {
-      "BMW_RUN_DURATION": "16h",
+      "BMW_RUN_DURATION": "14h",
       "BMW_START_TIME": "06:00",
       "EXT_RM_LOCALITY": "cdvr-x-rmID-ncs01",
       "RIO_API_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
       "RM_LOCALITY": "cdvr-x-rmID-ncs01",
       "SUPER8_SERVICE_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
       "SERVICE_URL": "http://rio-rm-csnt-vip.833chestnut.pa.panjde.comcast.net",
-      "AAA": "AAA"
+      "AAA": "555"
     },
     "ExternalServices": {
       "active-storage": {
