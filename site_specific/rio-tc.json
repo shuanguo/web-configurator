@@ -34,7 +34,8 @@
       "SERVICE_URL": "http://rio-rm-eden-vip.shadyoakrd.mn.minn.comcast.net:80",
       "SITE_ID": "eden01",
       "STREAM_CAP": "74",
-      "SUPER8_SERVICE_HOST": "rio-dsbd-eden-vip.shadyoakrd.mn.minn.comcast.net"
+      "SUPER8_SERVICE_HOST": "rio-dsbd-eden-vip.shadyoakrd.mn.minn.comcast.net",
+      "BBB": "CCC"
     },
     "ExternalServices": {
       "active-storage": {
