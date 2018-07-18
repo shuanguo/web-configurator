@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "name": "ncs01"
+  },
+  "spec": {
+    "Environment": {
+      "BMW_RUN_DURATION": "14h",
+      "BMW_START_TIME": "06:00",
+      "EXT_RM_LOCALITY": "cdvr-x-rmID-ncs01",
+      "RIO_API_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
+      "RM_LOCALITY": "cdvr-x-rmID-ncs01",
+      "SUPER8_SERVICE_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
+      "SERVICE_URL": "http://rio-rm-csnt-vip.833chestnut.pa.panjde.comcast.net",
+      "AAA": "Test"
+    },
+    "ExternalServices": {
+      "active-storage": {
+        "Address": [
+          "10.48.180.4",
+          "10.48.180.5",
+          "10.48.180.6",
+          "10.48.180.46",
+          "10.48.180.47",
+          "10.48.180.48"
+        ]
+      },
+      "archive-storage": {
+        "Address": [
+          "10.48.180.4",
+          "10.48.180.5",
+          "10.48.180.6",
+          "10.48.180.46",
+          "10.48.180.47",
+          "10.48.180.48"
+        ]
+      },
+      "dash-origin-public": {
+        "Address": [
+          "10.48.180.115"
+        ]
+      },
+      "memsql": {
+        "Address": [
+          "10.48.180.38",
+          "10.48.180.39",
+          "10.48.180.40",
+          "10.48.180.41",
+          "10.48.180.42",
+          "10.48.180.43",
+          "10.48.180.44",
+          "10.48.180.45"
+        ]
+      },
+      "zookeeper": {}
+    },
+    "KubeConfig": {
+      "Host": "10.48.180.113:8080"
+    },
+    "secrets": "@#$*&!"
+  }
+}
