@@ -4,7 +4,7 @@
   },
   "spec": {
     "Environment": {
-      "A8U_NUM_PARTITIONS": "14",
+      "A8U_NUM_PARTITIONS": "15",
       "AA_DB_CONNS": "76",
       "AUDIT_DSN": "rio:twincities@tcp($(MEMSQL_SERVICE_HOST):$(MEMSQL_SERVICE_PORT))/rioaudit?interpolateParams=true&parseTime=true",
       "BASIC_AUTH": "-basicauth=http://rio:twincities@$(ACTIVE_STORAGE_SERVICE_HOST):$(ACTIVE_STORAGE_SERVICE_PORT) -basicauth=http://rio:twincities@$(ARCHIVE_STORAGE_SERVICE_HOST):$(ARCHIVE_STORAGE_SERVICE_PORT)",
