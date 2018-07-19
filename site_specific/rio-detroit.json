@@ -10,8 +10,7 @@
       "RIO_API_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
       "RM_LOCALITY": "cdvr-x-rmID-ncs01",
       "SUPER8_SERVICE_HOST": "rio-dsbd-csnt-vip.833chestnut.pa.panjde.comcast.net",
-      "SERVICE_URL": "http://rio-rm-csnt-vip.833chestnut.pa.panjde.comcast.net",
-      "AAA": "AAA"
+      "SERVICE_URL": "http://rio-rm-csnt-vip.833chestnut.pa.panjde.comcast.net"
     },
     "ExternalServices": {
       "active-storage": {
